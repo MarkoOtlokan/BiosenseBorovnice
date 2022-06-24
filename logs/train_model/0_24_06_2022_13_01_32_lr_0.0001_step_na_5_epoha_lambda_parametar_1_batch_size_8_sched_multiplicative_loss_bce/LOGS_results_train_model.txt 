@@ -1,0 +1,23 @@
+("________________________________________Today's date and time D,M,Y,H,M,S:", '24_06_2022_13_01_32')
+('Time Elapsed Load Dataset', '0.004761695861816406')
+('Size of Train dataset : ', '1')
+('Size of Validation dataset : ', '1')
+('Size of Test dataset : ', '1')
+('Epochs : ', 5)
+('Batch Size : ', 8)
+('Load Numpy : ', True)
+('Net Type : ', 'UNet3')
+('Use Loss weights : ', False)
+('Scheduler : ', 'multiplicative')
+('Loss Type : ', 'bce')
+('Learning Rate : ', 0.0001)
+('Use weight decay : ', 0)
+('Device : ', 'cuda')
+('Num Channels : ', 5)
+('Num Channels Labele : ', 1)
+Time Elapsed For Train epoch 0 3.640417724609375
+Time Elapsed For Valid epoch 0 0.915698974609375
+Epoch: 0 ; Train Loss = 0.625765323638916 Validation Loss = 0.6900622248649597 Learning rate = 0.0001
+Model BEST saved at path>> /home/tloken/biosens/Ai-bezGita/kubeflow/example/Train_model/logs/train_model/0_24_06_2022_13_01_32_lr_0.0001_step_na_5_epoha_lambda_parametar_1_batch_size_8_sched_multiplicative_loss_bce/NN_model_ep_5_train_model/trained_model_best_epoch0.pt
+Model saved at path>> /home/tloken/biosens/Ai-bezGita/kubeflow/example/Train_model/logs/train_model/0_24_06_2022_13_01_32_lr_0.0001_step_na_5_epoha_lambda_parametar_1_batch_size_8_sched_multiplicative_loss_bce/NN_model_ep_5_train_model/trained_model_epoch0.pt
+Time Elapsed For Train epoch 1 1.1431986083984376

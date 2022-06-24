@@ -39,6 +39,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Creating the directory where the output file will be created (the directory may or may not exist).
-    Path(args.accuracy).parent.mkdir(parents=True, exist_ok=True)
+    #Path(args.accuracy).parent.mkdir(parents=True, exist_ok=True)
 
     _train_model(args)

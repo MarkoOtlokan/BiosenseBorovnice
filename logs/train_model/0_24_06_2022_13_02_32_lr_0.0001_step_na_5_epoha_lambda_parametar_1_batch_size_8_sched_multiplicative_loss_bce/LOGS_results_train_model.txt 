@@ -1,0 +1,30 @@
+("________________________________________Today's date and time D,M,Y,H,M,S:", '24_06_2022_13_02_32')
+('Time Elapsed Load Dataset', '0.0007603168487548828')
+('Size of Train dataset : ', '1')
+('Size of Validation dataset : ', '1')
+('Size of Test dataset : ', '1')
+('Epochs : ', 5)
+('Batch Size : ', 8)
+('Load Numpy : ', True)
+('Net Type : ', 'UNet3')
+('Use Loss weights : ', False)
+('Scheduler : ', 'multiplicative')
+('Loss Type : ', 'bce')
+('Learning Rate : ', 0.0001)
+('Use weight decay : ', 0)
+('Device : ', 'cuda')
+('Num Channels : ', 5)
+('Num Channels Labele : ', 1)
+Time Elapsed For Train epoch 0 3.51214599609375
+Time Elapsed For Valid epoch 0 0.9630770874023438
+Epoch: 0 ; Train Loss = 0.7179802060127258 Validation Loss = 0.6931939125061035 Learning rate = 0.0001
+Model BEST saved at path>> /home/tloken/biosens/Ai-bezGita/kubeflow/example/Train_model/logs/train_model/0_24_06_2022_13_02_32_lr_0.0001_step_na_5_epoha_lambda_parametar_1_batch_size_8_sched_multiplicative_loss_bce/NN_model_ep_5_train_model/trained_model_best_epoch0.pt
+Model saved at path>> /home/tloken/biosens/Ai-bezGita/kubeflow/example/Train_model/logs/train_model/0_24_06_2022_13_02_32_lr_0.0001_step_na_5_epoha_lambda_parametar_1_batch_size_8_sched_multiplicative_loss_bce/NN_model_ep_5_train_model/trained_model_epoch0.pt
+Time Elapsed For Train epoch 1 1.1203226318359376
+Time Elapsed For Valid epoch 1 0.9599718017578125
+Epoch: 1 ; Train Loss = 0.6537567377090454 Validation Loss = 0.6931307315826416 Learning rate = 0.0001
+Model BEST saved at path>> /home/tloken/biosens/Ai-bezGita/kubeflow/example/Train_model/logs/train_model/0_24_06_2022_13_02_32_lr_0.0001_step_na_5_epoha_lambda_parametar_1_batch_size_8_sched_multiplicative_loss_bce/NN_model_ep_5_train_model/trained_model_best_epoch1.pt
+Time Elapsed For Train epoch 2 1.1594786376953126
+Time Elapsed For Valid epoch 2 0.9215126342773438
+Epoch: 2 ; Train Loss = 0.6076539158821106 Validation Loss = 0.6930453181266785 Learning rate = 0.0001
+Model BEST saved at path>> /home/tloken/biosens/Ai-bezGita/kubeflow/example/Train_model/logs/train_model/0_24_06_2022_13_02_32_lr_0.0001_step_na_5_epoha_lambda_parametar_1_batch_size_8_sched_multiplicative_loss_bce/NN_model_ep_5_train_model/trained_model_best_epoch2.pt
